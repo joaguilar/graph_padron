@@ -91,8 +91,8 @@ def generate_cypher(distelec_data, padron_data):
 
 # Main function to process files and generate Cypher code
 def main():
-    distelec_file = '/Users/joseaguilar/Library/CloudStorage/OneDrive-Personal/ULead/Big Data 2 2024/Semana 04/ejemplo_cypher/distelec.txt'
-    padron_file = '/Users/joseaguilar/Library/CloudStorage/OneDrive-Personal/ULead/Big Data 2 2024/Semana 04/ejemplo_cypher/padron.txt'
+    distelec_file = 'distelec.txt'
+    padron_file = 'padron.txt'
 
 
     distelec_data = parse_distelec(distelec_file)
